@@ -176,7 +176,7 @@
 				<pod name="FirebaseMessaging" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebasePerformance" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseRemoteConfig" spec="$IOS_FIREBASE_POD_VERSION"/>
-				<pod name="FirebaseInAppMessaging" spec="10.24.0-beta"/>
+				<pod name="FirebaseInAppMessaging" spec="10.23.0-beta"/>
 				<pod name="FirebaseFirestore" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseCrashlytics" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseFunctions" spec="$IOS_FIREBASE_POD_VERSION"/>
