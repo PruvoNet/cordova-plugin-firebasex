@@ -173,7 +173,7 @@
 				<pod name="FirebaseAuth" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseAnalytics" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<!--<pod name="FirebaseAnalyticsOnDeviceConversion" spec="10.24.0"/>-->
-				<pod name="FirebaseMessaging" spec="${IOS_FIREBASE_POD_VERSION}-beta"/>
+				<pod name="FirebaseMessaging" spec="10.24.0-beta"/>
 				<pod name="FirebasePerformance" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseRemoteConfig" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseInAppMessaging" spec="$IOS_FIREBASE_POD_VERSION"/>
