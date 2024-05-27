@@ -83,7 +83,8 @@ module.exports = {
         // Generate a unique ID for our new build phase.
         var id = xcodeProject.generateUuid();
 
-        if (xcodeProject.hash.project.objects.PBXShellScriptBuildPhase) {
+        // Initialize the object if doesn't exists
+        if (!xcodeProject.hash.project.objects.PBXShellScriptBuildPhase) {
             xcodeProject.hash.project.objects.PBXShellScriptBuildPhase = {};
         }
 
