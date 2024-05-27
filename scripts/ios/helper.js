@@ -82,6 +82,12 @@ module.exports = {
 
         // Generate a unique ID for our new build phase.
         var id = xcodeProject.generateUuid();
+
+        // Initialize the object if doesn't exists
+        if (!xcodeProject.hash.project.objects.PBXShellScriptBuildPhase) {
+            xcodeProject.hash.project.objects.PBXShellScriptBuildPhase = {};
+        }
+
         // Create the build phase.
         xcodeProject.hash.project.objects.PBXShellScriptBuildPhase[id] = {
             isa: "PBXShellScriptBuildPhase",
@@ -132,7 +138,7 @@ module.exports = {
 
         // First, we want to delete the build phase block itself.
 
-        var buildPhases = xcodeProject.hash.project.objects.PBXShellScriptBuildPhase;
+        var buildPhases = xcodeProject.hash.project.objects.PBXShellScriptBuildPhase || {};
 
         var commentTest = comment.replace(/"/g, '');
         for (var buildPhaseId in buildPhases) {
