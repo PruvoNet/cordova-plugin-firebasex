@@ -218,8 +218,8 @@ module.exports = {
         xcodeProject.parseSync();
 
         // Add search paths build property
-        addRunpathSearchBuildProperty(xcodeProject, "Debug");
-        addRunpathSearchBuildProperty(xcodeProject, "Release");
+        // addRunpathSearchBuildProperty(xcodeProject, "Debug");
+        // addRunpathSearchBuildProperty(xcodeProject, "Release");
 
         // Finally, write the .pbxproj back out to disk.
         fs.writeFileSync(path.resolve(xcodeProjectPath), xcodeProject.writeSync());
