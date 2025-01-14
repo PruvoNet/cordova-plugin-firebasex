@@ -189,7 +189,7 @@
 				<pod name="FirebaseCrashlytics" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseFunctions" spec="$IOS_FIREBASE_POD_VERSION"/>
 				<pod name="FirebaseInstallations" spec="$IOS_FIREBASE_POD_VERSION"/>
-				<pod name="GoogleSignIn" git="https://github.com/PruvoNet/GoogleSignIn-iOS.git" tag="$GOOGLE_SIGN_IN_VERSION"/>
+				<pod name="GoogleSignIn" git="https://github.com/PruvoNet/GoogleSignIn-iOS.git" tag="$IOS_GOOGLE_SIGN_IN_POD_VERSION"/>
 				<pod name="GoogleTagManager" spec="$IOS_GOOGLE_TAG_MANAGER_POD_VERSION"/>
 			</pods>
 		</podspec>
